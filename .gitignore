@@ -2,3 +2,6 @@
 venv/
 Dataset/
 Jurnal/
+.env
+vendor/
+node_modules/
