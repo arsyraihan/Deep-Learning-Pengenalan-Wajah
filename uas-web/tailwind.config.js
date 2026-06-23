@@ -15,6 +15,13 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            // Tambahan animasi scanner untuk efek AI
+            keyframes: {
+                scan: {
+                    '0%, 100%': { top: '0%' },
+                    '50%': { top: '100%' },
+                }
+            }
         },
     },
 
